@@ -1,6 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
+
+<style type="text/css">
+  @font-face {
+    font-family: "Church Font";
+    src: url(./BakerSignetBT.ttf) format("truetype");
+  }
+
+  html, body {
+    padding: 16px;
+    margin: 0;
+  }
+
+  .heading {
+    font-family: "Church Font", Verdana, Tahoma;
+    text-align: center;
+  }
+
+  .heading h1,
+  .heading h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .margin-top-16 {
+    margin-top: 16px !important;
+  }
+
+  .margin-16 {
+    margin: 16px !important;
+  }
+
+  .margin-top-8 {
+    margin-top: 8px !important;
+  }
+</style>
+
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Dana Ranch Ward | Order of Services</title>
   </head>
   <body>
@@ -8,8 +45,11 @@
       <h2>THE CHURCH OF</h2>
       <h1>JESUS CHRIST</h1>
       <h2>of Latter-Day Saints</h2>
-      <hr>
-      <h2>Dana Ranch Ward Sacrament Meeting</h2>
+      <h2 class="margin-top-16">Dana Ranch Ward Sacrament Meeting</h2>
     </div>
+
+    <hr class="margin-16">
+
+    <div class="program"></div>
   </body>
 </html>

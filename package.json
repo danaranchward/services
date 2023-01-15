@@ -1,6 +1,6 @@
 {
-  "name": "church-app",
-  "homepage": "http://danaranchward.github.io/danaranchward.github.io",
+  "name": "services",
+  "homepage": "http://danaranchward.github.io/services",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
